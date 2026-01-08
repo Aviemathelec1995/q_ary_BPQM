@@ -8,11 +8,6 @@ with eigen-spectrum
 
 for a regular (dv, dc) LDPC ensemble, and compare to the Holevo (capacity) threshold.
 
-This mirrors the structure of:
-https://github.com/Aviemathelec1995/PMBPQM_BSCQ/blob/main/bscq_ldpc_threshold.py
-but replaces (delta,gamma) with q-dimensional spectra and uses the qudit PSC
-bitnode/checknode rules from the attached PDF.
-
 Usage example:
   python qudit_psc_ldpc_threshold.py --q 8 --dv 3 --dc 6 --ns 3000 --depth 80 --tol 0.05
 """
