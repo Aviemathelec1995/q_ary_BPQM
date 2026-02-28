@@ -12,6 +12,8 @@ Outputs threshold lambda using BPQM for (dv,dc) regular LDPC code on symmetric q
 Example command for Polar
 
 `python qudit_psc_polar_plots.py design-curve --q 3 --n_list 7,8,9,10 --lam0 2.4,0.45,0.15 --Npop 2000 --out design_curve.png`
+
+
 `python qudit_psc_polar_plots.py rate-vs-capacity --q 3 --n_list 8,10,12 --d_budget 0.1 --Npop 4000 --out rate_vs_cap.png`
 
 Outputs design curve and rate vs capacity plots for polar codes on symmetric q-ary PSC with given eignelist
